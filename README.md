@@ -128,4 +128,4 @@ openocd -f cmake-gcc/openocd.cfg \
 
 ## 许可
 
-示例工程，可自由用于学习与二次修改。
+[MIT](./LICENSE)
