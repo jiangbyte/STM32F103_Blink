@@ -1,0 +1,9 @@
+CompileFlags:
+  Add:
+    - -isystemnull/include
+    - -isystemnull/include/libcxx
+    - -isystemC:\Users\jiang\AppData\Local\Keil_v5\ARM\ARMCLANG/include
+    - -isystemC:\Users\jiang\AppData\Local\Keil_v5\ARM\ARMCLANG/include/libcxx
+  Remove: []
+  CompilationDatabase: ./build/Blink
+  Compiler: C:\Users\jiang\AppData\Local\Keil_v5\ARM\ARMCLANG\bin\armclang.exe

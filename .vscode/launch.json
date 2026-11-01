@@ -1,0 +1,21 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Blink (OpenOCD + ST-LINK)",
+      "cwd": "${workspaceFolder}",
+      "executable": "${workspaceFolder}/cmake-gcc/build/Blink.elf",
+      "request": "launch",
+      "type": "cortex-debug",
+      "servertype": "openocd",
+      "serverpath": "openocd",
+      "gdbPath": "gdb-multiarch",
+      "device": "STM32F103C8",
+      "configFiles": [
+        "${workspaceFolder}/cmake-gcc/openocd.cfg"
+      ],
+      "runToEntryPoint": "main",
+      "preLaunchTask": "CMake: build Debug"
+    }
+  ]
+}
