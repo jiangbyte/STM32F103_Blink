@@ -3,5 +3,6 @@
   "files.associations": {
     "*.h": "c",
     "*.c": "c"
-  }
+  },
+  "cmake.sourceDirectory": "/home/jiang/workspace/projects/mine/STM32F103_Blink/cmake-gcc"
 }
